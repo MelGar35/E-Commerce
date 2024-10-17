@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border: 1px blue solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+    row-gap: 2rem;
+}
+
+.card{
+    width: 250px;
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-title{
+   font-size: 1.5rem; 
+   font-weight: 800;
+   text-align: center;
+}
+
+.card-img{
+    width: 60%;
+    object-fit: cover;
+}
+
+.card-desc{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.card-price{
+    font-size: 1.5rem;
+}
+
+.card-btn{
+ padding: 5px;
+ font-size: 0.9rem;
+ border-radius: 7px;
+}
